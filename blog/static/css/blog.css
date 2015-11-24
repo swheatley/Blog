@@ -7,7 +7,15 @@ body {
     padding-left: 15px;
     background-color: darkorange;
 }
-p .top-menu{
+p{
+    font-weight: regular;
+}
+.top-menu{
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.page-header p{
     color: white;
 }
 .page-header {
@@ -17,7 +25,8 @@ p .top-menu{
     border-radius: 10px;
 }
 span{
-    margin-top: 25px;
+    margin-top: 10px;
+    padding: 2px;
     
 
 }
