@@ -82,11 +82,12 @@ DATABASES = {
         'NAME': 'django_blog',
         'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD': '1jjackson!',
+        'PASSWORD': 'root',
         'PORT': ''
 
     }
 }
+
 
 
 # Internationalization
