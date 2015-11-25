@@ -62,8 +62,8 @@ def post_new(request):
 
 @login_required
 def post_draft_list(request):
-    post = Post.objects.filter(published_date__isnull=True).order_by('created_date')
-    return render(request, 'blog/post_draft_list.html', {'post': post})
+    posts = Post.objects.filter(published_date__isnull=True).order_by('created_date')
+    return render(request, 'blog/post_draft_list.html', {'posts': posts})
 
 
 @login_required
