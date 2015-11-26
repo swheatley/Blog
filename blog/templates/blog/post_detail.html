@@ -9,7 +9,7 @@
                     <div class="date">
                         {{ post.published_date }}
                     </div>
-            {% else %}
+        {% else %}
                 <a class="btn btn-default" href="{% url 'blog.views.post_publish' pk=post.pk %}">Publish</a>
         {% endif %}
         <h1>{{ post.title }}</h1>
@@ -33,7 +33,7 @@
                 <p>{{comment.text|linebreaks}}</p>
             </div>
         {% endif %}
-    {% empty %}
+    
         <p>No comments here yet :( </p>
 
     {% endfor %}

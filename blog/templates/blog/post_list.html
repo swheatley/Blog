@@ -4,6 +4,7 @@
 
 
 {% block content %}
+
     {% for post in posts %}
         <div class="post">
             <div class="date">
@@ -14,6 +15,7 @@
             <a href="{% url 'blog.views.post_detail' pk=post.pk %}">Comments: {{ post.comments.count }}</a>
         </div>
     {% endfor %}
+    
 {% endblock content %}
 
 
