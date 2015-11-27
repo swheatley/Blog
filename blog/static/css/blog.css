@@ -12,6 +12,7 @@ p{
 }
 a{
     color: black;
+    font-weight: bold;
 }
 a:hover{
     
@@ -49,6 +50,7 @@ span{
 div .row{
     background-color: white;
     border-radius: 10px;
+    
 }
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
@@ -56,9 +58,7 @@ div .row{
     text-decoration: none;
 }
 
-.content {
-    margin-left: 40px;
-}
+
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
@@ -123,7 +123,14 @@ h1, h2, h3, h4 {
 .add-comment{
     padding: 20px;
 }
-.glyphicon-pencil, .glyphicon-remove{
+
+/* BUTTONS */
+.glyphicon-pencil, .glyphicon-remove, .btn-default{
     margin-top: -5px;
     padding: 10px;
+}
+.btn-primary{
+    margin-left: 20px;
+    padding: 10px;
+   
 }
